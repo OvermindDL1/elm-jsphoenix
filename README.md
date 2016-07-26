@@ -27,7 +27,7 @@ socket.onOpen(() => {
 }
 ```
 
-Even if you do not have any other javascript code using the socket this still ensures full compatability of your Elm app with the Phoenix socket interface, heartbeats, recovery, and all.
+Even if you do not have any other javascript code using the socket this still ensures full compatibility of your Elm app with the Phoenix socket interface, heartbeats, recovery, and all.
 
 
 ## Usage
