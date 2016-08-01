@@ -4,7 +4,7 @@ Elm Port wrapper around Phoenix Socket/Presence javascript library to allow comp
 ## Installation
 Include the JSPhoenix.elm module however you wish.
 
-Add the javascript file to your Phoenix brunch (or whatever you've replaced it with) build system to include in your Phoenix project.
+Add the javascript file to your Phoenix brunch (or whatever you've replaced it with) build system to include in your Phoenix project (generally it should go in `web/static/js` or some subdirectory there-of, adjust the include below for where it is put, but it needs to be babel-transpiled).
 
 In the javascript for your Phoenix project any Elm app that you instance just call the `setup_phoenix_socket_ports` from the setup_phoenix_socket_ports javascript module, such as by:
 ```javascript
