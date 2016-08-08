@@ -36,7 +36,7 @@ type alias ChanExitCB msg =
 
 type alias Connect =
     { topic : String
-    , timeout_ms : Maybe Int --  Just 10000 -- Default value
+    , timeout_ms : Maybe Int {- Just 10000 -- Default value -}
     , chanCloseCB : Maybe CallbackPortEvent
     , chanErrorCB : Maybe CallbackPortEvent
     , syncState : Maybe CallbackPortEvent
